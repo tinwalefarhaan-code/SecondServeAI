@@ -6,68 +6,76 @@
 </p>
 
 <p align="center">
-  <a href="YOUR_LIVE_DEMO_URL">🌐 Live Demo</a> ·
-  <a href="YOUR_DEMO_VIDEO_URL">▶️ Watch Demo</a> ·
-  <a href="YOUR_GITHUB_REPOSITORY_URL">💻 Source Code</a> ·
-  <a href="#-getting-started">🚀 Get Started</a>
+  <a href="https://tinwalefarhaan-code.github.io/SecondServeAI/">🌐 LIVE DEMO</a> ·
+  <a href="ADD_YOUR_VIDEO_LINK_HERE">▶️ WATCH DEMO VIDEO</a> ·
+  <a href="https://github.com/tinwalefarhaan-code/SecondServeAI">💻 SOURCE CODE</a> ·
+  <a href="#-getting-started">🚀 GET STARTED</a>
 </p>
 
 ---
 
 ## 🌍 About the Project
 
-Every day, perfectly usable food can go to waste while individuals and community organizations struggle to access meals.
+Food waste and food insecurity can exist side by side. While perfectly usable food is discarded, individuals and community organizations may struggle to access meals.
 
 **SecondServeAI** is a food redistribution platform designed to help bridge this gap by connecting food donors with people and organizations that can make use of surplus food.
 
-The goal is simple: make food sharing easier, improve visibility into available donations, and help surplus food find a second purpose instead of going to waste.
+Our goal is to make food sharing easier, improve visibility into available donations, and help surplus food find a second purpose.
 
 > **Our mission:** Give surplus food a second chance and help build a world where less food is wasted and more people are supported.
 
 ## ✨ Key Features
 
 - 🍱 **Food Donation Listings** — Organize surplus food into listings with relevant details.
-- 🖼️ **Food Image Uploads** — Support food photos through Cloudinary integration.
-- 🤝 **Food Redistribution** — Help donors and recipient organizations discover opportunities to share surplus food.
+- 🖼️ **Food Image Uploads** — Cloudinary integration for cloud-based image storage.
+- 🤝 **Food Redistribution** — Help donors and recipient organizations discover food-sharing opportunities.
 - 📦 **Listing Management** — Track donation quantities, reservations, collection progress, and availability.
-- 🎨 **Modern User Interface** — A polished, responsive interface designed for a clear and engaging experience.
-- 🔒 **Environment-Based Configuration** — Keep API credentials in environment variables rather than exposing them in frontend code.
-- 🧪 **API Tests** — Automated tests help verify core server behavior.
+- 🎨 **Modern Interface** — A polished, responsive experience designed for clear navigation.
+- 🔒 **Environment-Based Configuration** — Keep API credentials out of frontend code.
+- 🧪 **Automated Testing** — Tests help verify core server and API behavior.
 
-## 💡 The Problem We Address
+## 💡 The Problem
 
-Food waste and food insecurity exist at the same time. Surplus food may be available, but potential recipients may not know where it is, how much is available, or when it can be collected.
+Surplus food is not always distributed efficiently to people who could use it. Donors and recipient organizations may lack a convenient way to discover available food, coordinate quantities, and arrange collection.
 
-SecondServeAI aims to reduce this coordination gap with a centralized food-sharing experience.
+SecondServeAI aims to reduce this coordination gap through a centralized food-sharing platform.
 
 ### 🎯 Who Can Benefit?
 
-- **Food donors:** Restaurants, bakeries, markets, and other food providers with surplus food.
+- **Food donors:** Restaurants, bakeries, markets, and other food providers.
 - **Community organizations:** Food banks, charities, and community kitchens.
 - **Recipients:** People who can benefit from accessible food redistribution programs.
 
 ## ⚙️ How It Works
 
 1. **List:** A donor creates a listing for available surplus food.
-2. **Discover:** Potential recipients can view available listings.
-3. **Reserve:** A recipient can reserve an available quantity where supported.
+2. **Discover:** Potential recipients explore available listings.
+3. **Reserve:** A recipient reserves an available quantity where supported.
 4. **Coordinate:** Donors and recipients arrange collection.
-5. **Track:** Listing quantities and collection status help organize the process.
+5. **Track:** Listing quantities and collection status help organize redistribution.
 
-*The exact workflow depends on the features enabled in the current application.*
+*The workflow depends on the features enabled in the current application.*
 
 ## 🛠️ Technology Stack
 
 | Technology | Purpose |
 |---|---|
 | HTML5 | Page structure |
-| CSS3 | Responsive styling and interface design |
+| CSS3 | Responsive styling |
 | JavaScript | Frontend interactions |
 | Node.js | Server runtime |
-| Native Node.js HTTP | Backend API and request handling |
-| Cloudinary | Cloud-based food image storage |
-| JSON | Local listing data storage |
-| Node.js test runner / project tests | Automated API testing |
+| Native Node.js HTTP | Backend API |
+| Cloudinary | Cloud-based image storage |
+| JSON | Local listing data |
+| Node.js tests | Automated API testing |
+
+## 🚀 Live Project
+
+- **Live Website:** [Open SecondServeAI](https://tinwalefarhaan-code.github.io/SecondServeAI/)
+- **GitHub Repository:** [Explore the source code](https://github.com/tinwalefarhaan-code/SecondServeAI)
+- **Demo Video:** Coming soon.
+
+> **Note:** GitHub Pages serves static files. Backend API features and Cloudinary uploads may require the Node.js server to be deployed separately. Test the live website to confirm which features are available.
 
 ## 🖥️ Getting Started
 
@@ -75,14 +83,14 @@ Run SecondServeAI locally on your computer.
 
 ### Prerequisites
 
-- [Node.js](https://nodejs.org/) installed
-- [Git](https://git-scm.com/) installed
+- [Node.js](https://nodejs.org/)
+- [Git](https://git-scm.com/)
 - A [Cloudinary](https://cloudinary.com/) account for image uploads
 
 ### 1. Clone the repository
 
 ```bash
-git clone YOUR_GITHUB_REPOSITORY_URL
+git clone https://github.com/tinwalefarhaan-code/SecondServeAI.git
 cd SecondServeAI
 ```
 
@@ -105,7 +113,7 @@ CLOUDINARY_API_SECRET=your_api_secret
 
 Replace the example values with your own Cloudinary credentials.
 
-**Security:** Never commit `.env` to GitHub. The project `.gitignore` should exclude it.
+**Security:** Never commit `.env` to GitHub. Keep it excluded in `.gitignore`.
 
 ### 4. Start the application
 
@@ -113,19 +121,17 @@ Replace the example values with your own Cloudinary credentials.
 npm run dev
 ```
 
-Open the application in your browser:
+Open the local application at:
 
-```text
-http://localhost:3000
-```
+`http://localhost:3000`
 
 ### 5. Check server health
 
-```text
-http://localhost:3000/api/health
-```
+Visit:
 
-This endpoint reports whether the server is responding and whether Cloudinary settings are detected. A successful configuration check does not, by itself, guarantee that an image upload will succeed.
+`http://localhost:3000/api/health`
+
+This endpoint checks server availability and whether Cloudinary settings are detected. It does not guarantee that uploads will succeed.
 
 ## 🧪 Testing
 
@@ -135,17 +141,17 @@ Run the project's automated tests:
 node --test tests/api.test.js
 ```
 
-Use the test results to verify the current API behavior before submitting or deploying the application.
+Verify the test results before submitting or deploying the application.
 
 ## 🔐 Security Practices
 
 - Store secrets in environment variables.
 - Keep `.env` out of version control.
-- Do not expose Cloudinary API secrets in browser-side JavaScript.
+- Never expose Cloudinary API secrets in browser-side JavaScript.
 - Validate image types and file sizes on the server.
-- Test upload functionality using valid credentials before deployment.
+- Test uploads with valid credentials before deployment.
 
-## 🚀 Future Scope
+## 🔮 Future Scope
 
 - AI-assisted food categorization and listing descriptions.
 - Smarter donor-to-recipient matching.
@@ -160,7 +166,7 @@ Use the test results to verify the current API behavior before submitting or dep
 
 We believe technology can make food redistribution easier, more transparent, and more accessible.
 
-SecondServeAI is a step toward a more connected food-sharing ecosystem—where surplus food becomes an opportunity to support communities.
+SecondServeAI is a step toward a connected food-sharing ecosystem where surplus food becomes an opportunity to support communities.
 
 **Less waste. More sharing. A better second serve.**
 
@@ -168,5 +174,4 @@ SecondServeAI is a step toward a more connected food-sharing ecosystem—where s
 
 <p align="center">
   <strong>Built with purpose ❤️ for a world with less food waste.</strong>
-</p># SecondServeAI
-SecondServeAI is an AI-powered food redistribution platform that connects food donors with people and organizations in need, helping reduce food waste and fight hunger through smarter food sharing.
+</p>
