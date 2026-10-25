@@ -1,0 +1,132 @@
+[
+  {
+    "id": "lst-66167988",
+    "foodName": ".",
+    "category": "Prepared meals",
+    "description": "..",
+    "totalPortions": 4,
+    "reservedPortions": 0,
+    "collectedPortions": 4,
+    "status": "active",
+    "donor": "yashh",
+    "location": "jd circle",
+    "pickupWindow": "14:04-26",
+    "expiresAt": "12:55",
+    "distance": "",
+    "imageUrl": "https://res.cloudinary.com/l2abvt8d/image/upload/v1792935485/secondserve-ai/zp1qzofax6tc68hniflq.png",
+    "imagePublicId": "secondserve-ai/zp1qzofax6tc68hniflq",
+    "instructions": "fromm home",
+    "createdAt": "2026-10-25T13:38:57.319Z",
+    "reservations": [
+      {
+        "id": "rsv-59ae4fb1",
+        "organization": "yashh",
+        "quantity": 4,
+        "status": "completed",
+        "createdAt": "2026-10-25T13:42:17.438Z",
+        "completedAt": "2026-10-25T13:42:26.093Z"
+      }
+    ]
+  },
+  {
+    "id": "lst-market-vegetables",
+    "foodName": "Market vegetable harvest",
+    "category": "Produce",
+    "description": "Crisp seasonal greens, tomatoes and root vegetables packed after today’s market.",
+    "totalPortions": 48,
+    "reservedPortions": 12,
+    "collectedPortions": 0,
+    "status": "active",
+    "donor": "Harbour & Field Market",
+    "location": "Fort, Mumbai",
+    "pickupWindow": "Today · 17:30–19:00",
+    "expiresAt": "Today · best before 21:00",
+    "distance": "1.4 km",
+    "imageUrl": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=1600&q=85",
+    "createdAt": "2026-10-24T09:20:00.000Z",
+    "instructions": "Use the east service entrance. Bring stackable crates.",
+    "reservations": [
+      {
+        "id": "rsv-market-01",
+        "organization": "Sankalp Community Kitchen",
+        "quantity": 12,
+        "status": "reserved",
+        "createdAt": "2026-10-24T10:02:00.000Z"
+      }
+    ]
+  },
+  {
+    "id": "lst-bakery-bread",
+    "foodName": "Sourdough & bakery selection",
+    "category": "Bakery",
+    "description": "Freshly baked loaves, croissants and rolls from the afternoon bake.",
+    "totalPortions": 36,
+    "reservedPortions": 0,
+    "collectedPortions": 0,
+    "status": "active",
+    "donor": "Morrow Bakehouse",
+    "location": "Colaba, Mumbai",
+    "pickupWindow": "Today · 18:00–20:30",
+    "expiresAt": "Enjoy today or freeze on pickup",
+    "distance": "2.1 km",
+    "imageUrl": "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=1600&q=85",
+    "createdAt": "2026-10-24T11:10:00.000Z",
+    "instructions": "Ask the counter team for the SecondServe order.",
+    "reservations": []
+  },
+  {
+    "id": "lst-cafe-meals",
+    "foodName": "Hearty café meal boxes",
+    "category": "Prepared meals",
+    "description": "Vegetarian lentil bowls with roasted vegetables, packed and chilled.",
+    "totalPortions": 24,
+    "reservedPortions": 24,
+    "collectedPortions": 0,
+    "status": "active",
+    "donor": "Good Day Café",
+    "location": "Bandra West, Mumbai",
+    "pickupWindow": "Tomorrow · 09:00–10:00",
+    "expiresAt": "Tomorrow · consume by 14:00",
+    "distance": "4.8 km",
+    "imageUrl": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=1600&q=85",
+    "createdAt": "2026-10-24T08:15:00.000Z",
+    "instructions": "Collection is at the rear loading bay.",
+    "reservations": [
+      {
+        "id": "rsv-cafe-01",
+        "organization": "Asha Women’s Centre",
+        "quantity": 24,
+        "status": "reserved",
+        "createdAt": "2026-10-24T09:05:00.000Z"
+      }
+    ]
+  },
+  {
+    "id": "lst-kitchen-fruit",
+    "foodName": "Fruit & yoghurt breakfast packs",
+    "category": "Pantry",
+    "description": "Whole fruit and sealed yoghurt pots from a corporate kitchen service.",
+    "totalPortions": 30,
+    "reservedPortions": 0,
+    "collectedPortions": 30,
+    "status": "active",
+    "donor": "Common Table Kitchen",
+    "location": "Lower Parel, Mumbai",
+    "pickupWindow": "Completed",
+    "expiresAt": "Handoff completed",
+    "distance": "3.2 km",
+    "imageUrl": "https://images.unsplash.com/photo-1610832958506-aa56368176cf?auto=format&fit=crop&w=1600&q=85",
+    "createdAt": "2026-10-23T08:15:00.000Z",
+    "instructions": "",
+    "reservations": [
+      {
+        "id": "rsv-fruit-01",
+        "organization": "Udaan Youth Collective",
+        "quantity": 30,
+        "status": "completed",
+        "createdAt": "2026-10-23T09:00:00.000Z",
+        "completedAt": "2026-10-23T11:00:00.000Z"
+      }
+    ]
+  }
+]
